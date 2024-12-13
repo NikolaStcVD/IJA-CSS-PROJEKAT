@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5a1d1d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9900;
+    transform: scale(1.1);
+}
+
+.dobrodoslica {
+    background: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+.o-nama {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+footer {
+    background: #b70909;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .dobrodoslica {
+        padding:20px;
+    }
+}
