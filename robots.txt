@@ -1,0 +1,4 @@
+User-agent*
+Disallow:/slike/
+
+sitemap:https://github.com/NikolaStcVD/IJA-CSS-PROJEKAT/blob/main/sitemap.xml
